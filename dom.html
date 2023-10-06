@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <!-- <p id="heading">krishna</p>
+
+
+    <script>
+        document.getElementById("heading").innerHTML="hello everyone";
+    </script> -->
+    <!-- <h2>JS html events</h2>
+    
+    <button onclick="innerHTML=Date()">date</button>
+    <button onmouseover="innerHTML=Date()">date 2</button> -->
+
+    <h1 ></h1>
+
+    <p id="t"></p>
+
+    <script>
+        // function startTime(){
+        //     const today = new Date();
+        //     let h = today.getHours();
+        //     let m = today.getMinutes();
+        //     let s = today.getSeconds();
+
+        //     // m = checkTime(m);
+        //     // s = checkTime(s);
+
+        //     document.getElementById('t').innerHTML = h+":"+ m + ":" + s ;
+        //     setTimeout(startTime, 1000);
+
+        // }
+        // function checkTime(i){
+        //     if(i<10) {i="0" + i};
+        //     return i;
+        // }
+        
+
+        function myDisp(some){
+            document.getElementById("t").innerHTML=some;
+        }
+
+        async function myFunc(){
+            return "krishna";
+        }
+
+        myFunc().then(
+            function(value) {myDisp(value);},
+            function(error) {myDisp(error);}
+    
+        );
+    </script>
+</body>
+</html>
